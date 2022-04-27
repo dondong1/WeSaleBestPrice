@@ -17,6 +17,9 @@
 - checkout_cart: delivery_addresss, oder_date, order_id, payment_type, price, qty, user_id, product_id
 - category: id, added_on, category_id, name, price
 - adde_tocart: id, added_date, price, qty, user_id, product_id
-- oders: id, order_id, product_id, qty, price, order_on, status
 
 ![picture alt](/1.png "Database")
+
+# Spring Boot Architecture:
+
+- Controller -> Service -> Repository -> (data) -> Service -> Controller -> Web/Web Client.
